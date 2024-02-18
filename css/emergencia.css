@@ -47,22 +47,28 @@ main{
 
 }
 
+.contact-form {
+    margin-bottom: 60px; /* Agrega espacio debajo del formulario */
+}
+
 form {
     max-width: 700px; /* Establece el ancho máximo del formulario */
     margin-top:20px; /* Centra el formulario horizontalmente en la página */
-    padding: 30px; /* Agrega espacio interno alrededor del formulario */
+    padding: 50px; /* Agrega espacio interno alrededor del formulario */
     border: 1px solid #ccc; /* Agrega un borde alrededor del formulario */
     background-color: #0F1B41;
+    
 }
 
-/* Estilos de los campos del formulario */
-.form {
+Estilos de los campos del formulario
+.contact-form {
     margin-bottom: 20px; /* Agrega espacio entre los campos */
+   
 }
 
 label {
     display: block; /* Hace que las etiquetas se muestren en una línea separada */
-    margin-bottom: 5px; /* Agrega espacio entre las etiquetas y los campos */
+    margin-bottom: 10px; /* Agrega espacio entre las etiquetas y los campos */
     color: #fff
 }
 
@@ -76,10 +82,12 @@ textarea {
 }
 
 /* Estilos del botón de enviar */
-button[type="submit"] {
+
+.btn-submit {
+    margin-top: 20px; /* Agrega espacio por encima del botón */
     padding: 10px 20px; /* Agrega espacio interno dentro del botón */
     background-color: #0707e0; /* Establece el color de fondo del botón */
-    color: white;/* Establece el color del texto del botón */
+    color: white; /* Establece el color del texto del botón */
     border: none; /* Quita el borde del botón */
     border-radius: 4px; /* Agrega esquinas redondeadas al botón */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */

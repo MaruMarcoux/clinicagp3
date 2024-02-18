@@ -23,10 +23,10 @@
 			<nav class="nav">
 				<div class="logo"><img src="/Assets/Imagenes/logo_sin_fondo.png" alt=""></div>
 				<ul class="menu">
-					<li><a href="#">Inicio</a></li>
+					<li><a href="/index.html">Inicio</a></li>
 					<li><a href="#">Login</a></li>
 					<li><a href="#">Profesionales</a></li>
-					<li><a href="#">Resultados</a></li>
+					<li><a href="#">Novedades</a></li>
 					<li><a href="#">Especialidades</a></li>
 					<li><a href="#">Contacto</a></li>
 					<div class="dropdown">
@@ -77,33 +77,11 @@
                     </div>
                 </div>
             </section>
-            <section>
-                <div class=" title-contacto"> <h3> Contacto </h3></div>
-                <form>
-                    <div class="form">
-                        <label for="nombre">Nombre y Apellido:</label>
-                        <input type="text" class="form-control" id="nombre" name="Nombre " maxlength="30" pattern="[A-Za-zÁÉÍÓÚáéíóú\s]+" required>
-                        <span id="error"></span>
-                    </div>
-                    <div class="form">
-                        <label for="email">Correo electrónico:</label>
-                        <input type="email" class="form-control" id="email" name="email" maxlength="40" required onclick=" return validarCorreo();">
-                        <span id="error2"></span>
-                    </div>
-                    <div class="form">
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea class="form-control" id="mensaje" name="mensaje" maxlength="300" required onclick=" return validarCorreo();"></textarea>
-                        <span id="error3"></span>
-                    </div>
-                    <input type="submit" class="btn btn-primary" onclick  = 'return enviarFormulario();' value='Enviar'> 
-                </form>
-                <!-- <div id="error"></div> -->
-            </section>
             <div class=" banner2 d-flex align-items-center">
               <h2 class="m-0 w-100"> NUESTRAS NOVEDADES</h2>
               </div>
         
-        
+            <!-------------------------NOVEDADES -------------------->
               <section class="container-fliuid cont-novedades ">
                 <div class="row row-cols-1 row-cols-md-3 g-4 novedades">
                     <div class="col">
@@ -138,6 +116,30 @@
                     </div>
                 </div>
             </section>
+            <!-------------------------CONTACTO -------------------->
+            <section class="contact-form">
+                <div class=" title-contacto"> <h3> Contacto </h3></div>
+                <form>
+                    <div class="form">
+                        <label for="nombre">Nombre y Apellido:</label>
+                        <input type="text" class="form-control" id="nombre" name="Nombre " maxlength="30" pattern="[A-Za-zÁÉÍÓÚáéíóú\s]+" required>
+                        <span id="error"></span>
+                    </div>
+                    <div class="form">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" class="form-control" id="email" name="email" maxlength="40" required onclick=" return validarCorreo();">
+                        <span id="error2"></span>
+                    </div>
+                    <div class="form">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" maxlength="300" required onclick=" return validarCorreo();"></textarea>
+                        <span id="error3"></span>
+                    </div>
+                    <input type="submit" class="btn btn-primary btn-submit " onclick  = 'return enviarFormulario();' value='Enviar'> 
+                </form>
+                <!-- <div id="error"></div> -->
+            </section>
+
             
         </main>
         <footer>

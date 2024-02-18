@@ -207,7 +207,7 @@ h4{
     font-weight: bold;
     text-align: center;
 }
-.btn {
+.btn-card {
     display: block; /* Para que el botón ocupe todo el ancho del contenedor */
     margin: 0 auto; /* Para centrar horizontalmente el botón */
     background-color:#0F1B41; /* Cambiar el color de fondo del botón a naranja */
