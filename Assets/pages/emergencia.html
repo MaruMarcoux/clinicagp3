@@ -6,7 +6,8 @@
 		<meta name="author" content="grupo3" />
 		<meta name="description" content="somos una clinica" />
 		<title>Emergencia 24HS</title>
-		<link rel="icon" href="" type="image/x-icon" />
+		<link rel="icon" href="/Assets/Imagenes/logo_sin_fondo.png" type="image/x-icon" />
+        <script src="https://kit.fontawesome.com/8368ff0642.js" crossorigin="anonymous"></script>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -14,15 +15,33 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="/css/emergencia.css" />
+        <link rel="stylesheet" href="/css/style2.css">
 	</head>
     <body>
-        <header>
-            <nav>
-                <div class="navb"></div>
-
-            </nav>
-
-        </header>
+		<header>
+			<nav class="nav">
+				<div class="logo"><img src="./Assets/Imagenes/logo_sin_fondo.png" class="img-fluid" alt="Logo" href=" "></div>
+				<ul class="menu">
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Profesionales</a></li>
+					<li><a href="#">Resultados</a></li>
+					<li><a href="#">Especialidades</a></li>
+					<li><a href="#">Contacto</a></li>
+					<div class="dropdown">
+					  <button class="btn btn-custom dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Intranet
+					  </button>
+					  <ul class="dropdown-menu">
+						<li><a class="dropdown-item dropdown-custom" href="#">Medico</a></li>
+					  </ul>
+					</div>
+				  </ul>
+				<div class="menu-btn">
+					<i class="fas fa-bars"></i>
+				</div>  
+			</nav>    
+		</header>
         <main>
 
             <section>
@@ -34,7 +53,7 @@
                     <div class="row inf-container">
                         <div class="col-md-6 text-container">
                             <!-- Primer elemento en la primera columna -->
-                            <div><p>Tenemos a disposición los Recursos humanos necesarios para una atención permanente</p></div>
+                            <div><p>Tenemos a disposición los Recursos humanos necesarios para una atención permanente, las 24 horas del día, los 365 días del año. Tu salud es nuestra prioridad.</p></div>
                             <!-- Segundo elemento en la primera columna -->
                             <div> <ul >
                                 <li>Médico Clínico de guardia activa las 24 horas.</li>
