@@ -1,0 +1,91 @@
+body{
+    background-color: white;margin:0;
+    padding: 0;
+    
+}
+
+main{
+    max-width: 80%;
+    margin: 0  auto;
+}
+
+.navb{
+    height: 100px;
+    width: 100%;
+    background-color:#0F1B41;
+
+}
+.title{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    color:#0F1B41;
+    
+}
+.title img,
+.title h2 {
+    display: inline;
+    vertical-align: middle; /* Alinea verticalmente los elementos */
+}
+
+.inf-container{
+    margin-top: 30px;
+    padding-top: 30px ;
+    
+}
+.text-container li{
+    list-style-type: none;
+}
+
+
+
+/* Estilos formulario */
+.title-contacto{ 
+    padding:20px;
+    margin-top: 20px;
+    
+
+}
+
+form {
+    max-width: 700px; /* Establece el ancho máximo del formulario */
+    margin-top:20px; /* Centra el formulario horizontalmente en la página */
+    padding: 30px; /* Agrega espacio interno alrededor del formulario */
+    border: 1px solid #ccc; /* Agrega un borde alrededor del formulario */
+    background-color: #0F1B41;
+}
+
+/* Estilos de los campos del formulario */
+.form {
+    margin-bottom: 20px; /* Agrega espacio entre los campos */
+}
+
+label {
+    display: block; /* Hace que las etiquetas se muestren en una línea separada */
+    margin-bottom: 5px; /* Agrega espacio entre las etiquetas y los campos */
+    color: #fff
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Hace que los campos de entrada ocupen todo el ancho disponible */
+    padding: 10px; /* Agrega espacio interno dentro de los campos */
+    border: 1px solid #ccc; /* Agrega un borde alrededor de los campos */
+    border-radius: 4px; /* Agrega esquinas redondeadas a los campos */
+}
+
+/* Estilos del botón de enviar */
+button[type="submit"] {
+    padding: 10px 20px; /* Agrega espacio interno dentro del botón */
+    background-color: #0707e0; /* Establece el color de fondo del botón */
+    color: white;/* Establece el color del texto del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 4px; /* Agrega esquinas redondeadas al botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Estilos del botón de enviar al pasar el ratón */
+button[type="submit"]:hover {
+    background-color: #0F1B41 /* Cambia el color de fondo del botón al pasar el ratón */
+}

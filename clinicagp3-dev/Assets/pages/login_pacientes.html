@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso</title>
+    <link rel="stylesheet" href="login.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="" method="POST" id="form">
+        <div class="form">
+            <h1>Ingreso Pacientes</h1>
+            <div class="grupo">
+                <input type="email" name="email" id="email" required="required" maxlength="100" minlength="5">
+<span class="barra"></span>
+                <label for="">Usuario</label>
+            </div>
+            <div class="grupo">
+                <input type="password" name="password" id="password" required="required" maxlength="20" minlength="4">
+<span class="barra"></span>
+                <label for="">Contraseña</label>
+            </div>
+            
+            <button type="submit">Iniciar Sesión</button>
+            <p class="warnings" id="warnings"></p>
+            <p class="text-less">Si tenes problema con el ingreso comunicate al centro de atención al cliente haciendo click <a href="https://wa.me/5493816566448?text=Hola!" class="whatsapp" target="_blank">aquí</a>.</p>
+        
+            </div>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
