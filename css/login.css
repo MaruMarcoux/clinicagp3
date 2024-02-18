@@ -1,7 +1,6 @@
 :root {
-    --colorTextos: #49454567;
+    --colorTextos: hsl(179, 80%, 27%);
 }
-
 
 *,
 ::before,
@@ -13,11 +12,11 @@
 
 body {
     font-family: 'Roboto';
-    background: #4568DC;
+    background: hsl(179, 80%, 27%);
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: -webkit-linear-gradient(to right, #cdeaf3, hsl(179, 80%, 27%)C);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #cdeaf3, hsl(179, 80%, 27%));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 750px;
     display: flex;
@@ -57,8 +56,6 @@ input{
     border: none;
     border-bottom: 1px solid var(--colorTextos);
 }
-
-
 
 input:focus{ 
     outline: none;
@@ -110,15 +107,22 @@ input:focus~.barra::before{
     color: #B06AB3;
     padding-top: 20px;
 }
-
+.text-less {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #B06AB3;
+    padding-top: 20px;
+}
 button{
     font-family: 'roboto';
-    background: #4568DC;
+    background: hsl(179, 80%, 27%);
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: -webkit-linear-gradient(to right, #0F1B41, hsl(179, 80%, 27%)C);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #0F1B41, hsl(179, 80%, 27%));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 1%;
     border: none;
     display: block;
     width: 80%;
@@ -134,4 +138,11 @@ button{
         width: 80%;
     }
 }
-
+.whatsapp:hover {
+    text-decoration: none;
+    color: red;
+  }
+  a {
+    text-decoration: none;
+  }
+  
