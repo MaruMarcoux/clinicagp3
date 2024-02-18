@@ -5,25 +5,41 @@ body{
     background-position: center; /* Centrar la imagen */
 
 }
-.navb{
-    background-color: black;
-    width: auto;
-    height: 80px;
-}
 
-.main{
+
+.color1{
+    padding-top: 70px;
     
 }
-h2{
+
+.banner-0{
     height: 300px;
     text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: 0;|
+    background-color: #1d337c74;
+    
+    
+    justify-content: center;
 }
-h3{
+.banner-0 h2 {
+    
+    color: #0F1B41;/* Añadido para mejorar la legibilidad */
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.title-services{
     text-align: center;
     padding: 40px;
+    color: #fff;
 }  
-.color2 {
+.cont2 {
     background-color: #0F1B41;
+    padding-bottom: 20px;
    
    
 }
@@ -37,6 +53,9 @@ h3{
     background-color:#0e7c7ab7;
 }
 
+
+
+
 .box-1 {
     background-color: #0E7C7B; /* Color de fondo */
     border-radius: 10px; /* Borde redondeado */
@@ -48,13 +67,9 @@ h3{
     align-items: center; /* Centrar verticalmente el contenido */
     justify-content: center; /* Centrar horizontalmente el contenido */
     margin: auto;
+    
 }
 
-.color3 {
-    background-color: #D4F4DD;
-    padding:0;
-    margin-top: 0;
-}
 h4 {
     margin-bottom: 10px; /* Agrega espacio entre el título y la imagen */
 }
@@ -65,27 +80,129 @@ h4 {
 }
 
 .text-container {
-    margin-left: 10px; /* Agrega espacio entre la imagen y el texto */
+    margin-left: auto; /* Agrega espacio entre la imagen y el texto */
+    flex-grow: 1; /* El texto ocupará todo el espacio restante */  
 }
+.img-container {
+    width: 50%; /* La imagen ocupará el 50% del contenedor */
+    margin-right: 10px; /* Ajusta el margen derecho para separar la imagen del texto */
+}
+/* ------------------------BANNER-------------------------- */
+
+.banner{
+    height: 300px;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: 0;|
+    background-color: #1d337c74;
+    
+    
+    justify-content: center;
+}
+.banner h2 {
+    
+    color: #0F1B41;/* Añadido para mejorar la legibilidad */
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+/* ------------------------INSTITUTIONAL-------------------------- */
+.color3 {
+    background-color: #D4F4DD;  
+    padding:0;
+    margin-top: 0;
+}
+.tittle-institutional {
+    display: flex;
+    
+    margin-bottom: 200px; /* Agrega espacio entre el título y la imagen */
+ 
+
+}
+
+
 
 .institutional {
     display: flex;
     justify-content: center; /* Centra el contenido horizontalmente */
     align-items: center; /* Centra el contenido verticalmente */
-    text-align: center; /* Centra el texto dentro del contenedor */
-    padding-top: 50px; /* Añade espacio alrededor del contenido */
-    max-width: 60%; /* Ancho máximo del contenido */
+    padding-top:80px; /* Añade espacio alrededor del contenido */
+    max-width: 70%; /* Ancho máximo del contenido */
+    margin-left: 15px;
+    
     
 
 }
 
 .institutional p{
-    text-align:center;
+    text-align:justify;
+    margin-bottom:120px;
+    margin-top:-150px;
 
 }
 
 
+  
+  .carousel-caption {
+    text-align: center; /* Alinea el texto al centro */
+  }
+  .cardsslider{
+    width: 60%;
+    margin: 30px;
+    padding: 20px;
+  }
 
+h4{
+    margin-top: 20px;
+}
+.banner2{
+    height: 150px;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: 0;|
+    background-color: #1d337c74;
+    
+    
+    justify-content: center;
+}
+.banner2 h2 {
+    
+    color: #0F1B41;/* Añadido para mejorar la legibilidad */
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+/* .novedades .row {
+    display: flex;
+    justify-content: center; 
+    padding: 80px;
+    background-color: #D4F4DD;  
+}
+.card{
+    margin: 8px;
+} */
+.cont-novedades{
+    background-color: #D4F4DD;  
 
+}
+.novedades  {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px; /* Opcional: ajusta el ancho máximo según tus necesidades */
+    padding-top: 15px;
+}
+
+.card {
+    margin: 0 8px; /* Agrega un margen horizontal a las tarjetas */
+}
 
 
