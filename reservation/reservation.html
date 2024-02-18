@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Turnos</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<style>
+    .text-right {
+        text-align: right;
+    }
+</style>
+<body>
+    <div class="text-right">
+        <span>Bienvenido </span><span id="emailPlaceholder">User-notfound</span> <span>!</span> <button onclick="misreservas()" class="button2">Mis reservas</button>
+    </div>
+    <script>
+        // Obtener el correo electrónico del almacenamiento local
+        const email = localStorage.getItem("emailUsuario");
+
+        // Verificar si hay un correo electrónico guardado
+        if (email) {
+            // Si hay un correo electrónico, actualizar el contenido del elemento con id "emailPlaceholder"
+            document.getElementById("emailPlaceholder").textContent = email;
+        }
+    </script>
+
+    <div class="container">
+        <h1>Reserva de Turnos</h1>
+        <label for="medico" class="label">Seleccione Médico:</label>
+        <select id="medico" class="select">
+            <option value="GASTROENTEROLOGíA - Dr. Alfredo Guzman">GASTROENTEROLOGíA - Dr. Alfredo Guzman</option>
+            <option value="HEPATOLOGíIA - Dr. Luis Juarez">HEPATOLOGíIA - Dr. Luis Juarez</option>
+            <option value="NUTRICIÓN - Dra. Marta Avila">NUTRICIÓN - Dra. Marta Avila</option>
+
+        </select>
+        <br>
+        <label for="fecha" class="label">Seleccione Fecha:</label>
+        <input type="date" id="fecha" class="input" min="2024-02-18" max="2025-02-18">
+        <br>
+        <div id="horarios">
+            <button class="button" value="12:00">12:00</button>
+            <button class="button" value="13:00">13:00</button>
+            <button class="button" value="14:00">14:00</button>
+            <button class="button" value="15:00">15:00</button>
+            <button class="button" value="16:00">16:00</button>
+        </div>
+        <br>
+        <button onclick="confirmarReserva()" class="button2">Confirmar Reserva</button>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="mensajeReserva"></p>
+        </div>
+    </div>
+
+    <script src="reservation.js"></script>
+</body>
+</html>
