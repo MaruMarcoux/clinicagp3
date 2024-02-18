@@ -9,14 +9,12 @@ body{
 body .nav{
     padding: 25px;
 }
+/* Clases para el nav */
 header{
     width: 100%;
     height: 20px;
     background-position: center; 
 }  
-.menu-btn{
-    
-}
 .nav{
     position: fixed;
     width: 100%;
@@ -27,9 +25,6 @@ header{
     z-index: 1000;
     background-color: #0F1B41;
     color: #fff;
-} 
-.nav img{
-    
 }
 .nav.active{
     background: #0F1B41;
@@ -49,7 +44,7 @@ header{
     font-weight: 100;
 }
 .logo img{
-    max-width: 200px;
+    max-width: 100px;
 }
 body ul{
     padding: 0px;
@@ -75,7 +70,6 @@ body ul{
     color: 1;
     border-radius: 25px;
 }
-
 .btn-custom {
     background-color: #fff; 
     color: #0F1B41; 
@@ -126,73 +120,14 @@ body ul{
     .menu.active{
         transform: translatex(0);
     }
-}
-/* 
-footer {
-    background-color:#0F1B41;
-    display: flex;
-    justify-content: space-between; 
-    padding: 20px;
-}
-footer div {
-    width: 48%; 
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-footer div h2{
-    font-size: 20px;
-    color:#D4F4DD;
-    margin-top: 20px ;
-    margin-bottom: 0px;
-}
-
-@media screen and (max-width: 1024px) {
-    footer {
-        flex-direction: column; 
+    header{
+        height: 10px;
     }
-    footer div {
-        width: 100%; 
+    .copy {
+        font-size: 15px;
     }
 }
-footer hr{
-    color: #D4F4DD;
-}
-.ft-option{
-    text-decoration: none;
-    color: #D4F4DD;
-    transition: all ease 0.5s;
-}
-.ft-option:hover{
-    color: #17BEBB;
-}
-.text{
-    color: #D4F4DD;
-}
-footer div p{
-    margin-bottom: 0px;
-}
-.copy{
-    background-color: #D4F4DD;
-    text-align: center;
-    color:#0F1B41;
-    margin: 0px;
-}
-
-.img-ft{
-    display: flex;
-    justify-content: center;
-}
-.logo-ft {
-    border-radius: 50px;
-    height: 100px;    
-}
-footer img.logo-ft {
-    max-width: 50%;
-    height: auto;
-    border-radius: 70%;
-} */
+ /* clases para el footer */
 footer {
     background-color:#0F1B41;
     display: flex;
