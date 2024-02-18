@@ -200,7 +200,7 @@ h4{
 }
 
 .card {
-    margin: 0 8px; /* Agrega un margen horizontal a las tarjetas */
+    margin: 0 10px; /* Agrega un margen horizontal a las tarjetas */
 }
 .card-title{
 
@@ -213,5 +213,9 @@ h4{
     background-color:#0F1B41; /* Cambiar el color de fondo del botón a naranja */
     color: #ffffff; /* Cambiar el color del texto del botón a blanco */
 }
-
+.card-body {
+    max-height: 50vh; /* Utiliza viewport height para una altura máxima adaptable */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
