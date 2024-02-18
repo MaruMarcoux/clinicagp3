@@ -219,3 +219,6 @@ h4{
     text-overflow: ellipsis;
 }
 
+.cont2 a{
+   text-decoration: none; 
+}
