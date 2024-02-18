@@ -1,0 +1,73 @@
+.meds-info{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: center;
+    position: relative;
+}
+
+.bkg-img{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/03/medications-1853400_960_720.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bkg-img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.meds-info h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: #fff;
+    margin: 0px;
+
+}
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.error p {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #17BEBB;
+    margin: 0px;
+}
+.btn-volver{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.btn-volver p {
+    color: #D4F4DD;
+}
+.btn-a-volver {
+    color: #D4F4DD;
+    text-decoration: none;
+    background-color: #0F1B41;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: all ease-in-out 0.5s;
+}
+.btn-a-volver:hover{
+    background-color: #ABC8B4;
+    color: #0F1B41;
+}
+.correo-link{
+    text-decoration: none;
+}

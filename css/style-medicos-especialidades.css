@@ -1,0 +1,65 @@
+
+.med-info {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    position: relative;
+}
+
+.background-image {
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/02/07/50/medical-procedures-3579029_1280.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.background-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 190, 187, 0.5);
+}
+
+.med-info h2 {
+    font-size: 30px;
+    color: #fff;
+    margin: 0px;
+}
+.card{
+    margin: 10px 20px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.accordion-text {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.header-color{
+    background-color: #0F1B41;
+    color: #fff;
+}
+
+.body-color{
+    background-color: #ABC8B4;
+}
+.accordion-max {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accordion {
+    width: 80%;
+    max-width: 800px;
+}
