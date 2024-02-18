@@ -1,7 +1,7 @@
 body{
-    background-color: white;
-    margin:0;
+    background-color: white;margin:0;
     padding: 0;
+    
 }
 
 main{
@@ -43,9 +43,10 @@ main{
 .title-contacto{ 
     padding:20px;
     margin-top: 20px;
-    pa
+    
 
 }
+
 form {
     max-width: 700px; /* Establece el ancho máximo del formulario */
     margin-top:20px; /* Centra el formulario horizontalmente en la página */
@@ -78,7 +79,7 @@ textarea {
 button[type="submit"] {
     padding: 10px 20px; /* Agrega espacio interno dentro del botón */
     background-color: #0707e0; /* Establece el color de fondo del botón */
-    color: white /* Establece el color del texto del botón */
+    color: white;/* Establece el color del texto del botón */
     border: none; /* Quita el borde del botón */
     border-radius: 4px; /* Agrega esquinas redondeadas al botón */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
