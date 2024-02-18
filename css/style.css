@@ -18,7 +18,7 @@ body{
     width: 100%;
     padding: 0;
     margin: 0;
-    margin-left: 0;|
+    margin-left: 0;
     background-color: #1d337c74;
     justify-content: center;
 }
@@ -93,7 +93,7 @@ h4 {
     width: 100%;
     padding: 0;
     margin: 0;
-    margin-left: 0;|
+    margin-left: 0;
     background-color: #1d337c74;
     
     
@@ -163,7 +163,7 @@ h4{
     width: 100%;
     padding: 0;
     margin: 0;
-    margin-left: 0;|
+    margin-left: 0;
     background-color: #1d337c74;
     
     
@@ -201,6 +201,17 @@ h4{
 
 .card {
     margin: 0 8px; /* Agrega un margen horizontal a las tarjetas */
+}
+.card-title{
+
+    font-weight: bold;
+    text-align: center;
+}
+.btn {
+    display: block; /* Para que el botón ocupe todo el ancho del contenedor */
+    margin: 0 auto; /* Para centrar horizontalmente el botón */
+    background-color:#0F1B41; /* Cambiar el color de fondo del botón a naranja */
+    color: #ffffff; /* Cambiar el color del texto del botón a blanco */
 }
 
 
