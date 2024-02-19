@@ -41,6 +41,11 @@ form{
     margin: auto;
 }
 
+.texth3{
+    width: 100%;
+    margin: auto;
+}
+
 form .grupo{
     position: relative;
     margin: 45px ;

@@ -9,7 +9,7 @@ form.addEventListener("submit", e => {
     const email = emailInput.value.trim()
     const pass = passInput.value.trim()
 
-    if (email !== "usuario1@gmail.com" || pass !== "password1") {
+    if (email !== "pabloherrera@gmail.com" || pass !== "pablo123") {
         warnings += "Credenciales incorrectas. Inténtalo de nuevo."
     }
 
