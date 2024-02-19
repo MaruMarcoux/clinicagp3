@@ -10,7 +10,8 @@
     box-sizing: border-box;
 }
 
-body {
+.formulario {
+    margin-top: 20px;
     font-family: 'Roboto';
     background: hsl(179, 80%, 27%);
     /* fallback for old browsers */
@@ -24,9 +25,10 @@ body {
     align-items: center;
 }
 
-h1{
+h3{
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
+    padding: 10px;
 }
 
 form{
@@ -40,12 +42,6 @@ form{
     width: 100%;
     margin: auto;
 }
-
-.texth3{
-    width: 100%;
-    margin: auto;
-}
-
 form .grupo{
     position: relative;
     margin: 45px ;
@@ -119,7 +115,7 @@ input:focus~.barra::before{
     color: #B06AB3;
     padding-top: 20px;
 }
-button{
+.button-form {
     font-family: 'roboto';
     background: hsl(179, 80%, 27%);
     /* fallback for old browsers */
