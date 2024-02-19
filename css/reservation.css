@@ -119,3 +119,8 @@ h1 {
     cursor: not-allowed;
     color: #aaa;
 }
+.text-right{
+    background-color: ;
+    padding-top: 80px;
+    text-align: right;
+}
