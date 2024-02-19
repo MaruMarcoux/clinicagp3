@@ -1,7 +1,7 @@
 <h1 align="center">GP3 - Clínica de Atención Integral</h1>
 <p align="center">
   <a href="https://gp3clinica.com">
-    <img src="https://gp3clinica.com/logo.png" />
+    <img src="https://github.com/MaruMarcoux/clinicagp3/blob/Jose2/Assets/Imagenes/logo_sin_fondo.png" />
   </a>
 </p>
 
@@ -11,7 +11,7 @@
 </div>
 
 
-[![screenshot](Assets/Imagenes/clinica1.png 'Screenshot')](https://gp3clinica.com/)
+[![screenshot](Assets/Imagenes/clinica1.png 'Screenshot')]([https://gp3clinica.com/](https://clinicagp3.netlify.app/))
 
 La aplicación está construida utilizando tecnologías HTML CSS y JS para el frontend. Además, se han utilizado librerías como Bootstrap para mejorar la experiencia de usuario.
 
