@@ -43,6 +43,19 @@ body{
    
    
 }
+.cont2 p {
+    font-size: 3 vw;
+   
+   
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    /* Aquí colocas los estilos que deseas aplicar */
+    .cont2 {
+      font-size: 12px; /* Ejemplo de estilo */
+    }
+  }
     .services{
         max-width: 70%;
         padding-top: 20px;
