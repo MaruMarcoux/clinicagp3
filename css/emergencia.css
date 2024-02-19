@@ -27,6 +27,7 @@ main{
 .title h2 {
     display: inline;
     vertical-align: middle; /* Alinea verticalmente los elementos */
+    font-weight: bold;
 }
 
 .inf-container{
