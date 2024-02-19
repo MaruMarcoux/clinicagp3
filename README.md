@@ -16,8 +16,8 @@
 La aplicación está construida utilizando tecnologías HTML CSS y JS para el frontend. Además, se han utilizado librerías como Bootstrap para mejorar la experiencia de usuario.
 
 ## Links
-* Sitio web de la clínica: https://gp3clinica.com/
-* Trello del equipo de desarrollo: https://trello.com/b/zzWdUpXO/equipo-desarrollo-gp3
+* Sitio web de la clínica: https://clinicagp3.netlify.app/
+* Trello del equipo de desarrollo: https://trello.com/b/YJ9Zwwhf/segundo-proyectogrupo3
 
 ## Equipo de Desarrollo
 * José Córdoba
