@@ -21,32 +21,30 @@
     <body>
 	
         <header>
-            <header>
-                <nav class="nav">
-                    <div class="logo"><img src="./Assets/Imagenes/logo_sin_fondo.png" alt=""></div>
-                    <ul class="menu">
-                        <li><a href="/index.html">Inicio</a></li>
-                        <li><a href="/Assets/pages/reservation.html">Turnos</a></li>
-                        <li><a href="/Assets/pages/medicos.html">Profesionales</a></li>
-                        <li><a href="/Assets/pages/novedades.html">Novedades</a></li>
-                        <li><a href="/Assets/pages/especialidades.html">Especialidades</a></li>
-                        <li><a href="/Assets/pages/contacto.html">Contacto</a></li>
-                        <div class="dropdown">
-                          <button class="btn btn-custom dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Login
-                          </button>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item dropdown-custom" href="/Assets/pages/login.medicos.html">Medico</a></li>
-                            <li><a class="dropdown-item dropdown-custom" href="/Assets/pages/login.pacientes.html">Paciente</a></li>
-                          </ul>
-                        </div>
+            <nav class="nav">
+                <div class="logo"><a href="/index.html"><img src="/Assets/Imagenes/logo_sin_fondo.png" alt=""></a></div>
+                <ul class="menu">
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/Assets/pages/reservation.html">Turnos</a></li>
+                    <li><a href="/Assets/pages/medicos.html">Profesionales</a></li>
+                    <li><a href="/Assets/pages/novedades.html">Novedades</a></li>
+                    <li><a href="/Assets/pages/especialidades.html">Especialidades</a></li>
+                    <li><a href="/Assets/pages/contacto.html">Contacto</a></li>
+                    <div class="dropdown">
+                      <button class="btn btn-custom dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Login
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item dropdown-custom" href="/Assets/pages/login.medicos.html">Medico</a></li>
+                        <li><a class="dropdown-item dropdown-custom" href="/Assets/pages/login.pacientes.html">Paciente</a></li>
                       </ul>
-                    <div class="menu-btn">
-                        <i class="fas fa-bars"></i>
-                    </div>  
-                </nav>    
-            </header>   
-		</header>
+                    </div>
+                  </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>  
+            </nav>    
+        </header>  
 
         <main>
 
@@ -94,7 +92,8 @@
                             <div class="card-body">
                                 <h5 class="card-title">Progama de Residencias</h5>
                                 <p class="card-text">Te ofrecemos la mejor experiencia con nuestros programas de residencias</p>
-                                <a href="#" class="btn btn-primary">Ver Mas</a>
+                                <a href="/Assets/pages/novedades.html#residencias" class="btn btn-primary" onclick="mostrarContenido('residencias');">Ver Mas</a>
+
                             </div>
                         </div>
                     </div>
@@ -104,7 +103,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Alimentacion Saludable</h5>
                                 <p class="card-text">Te invitamos a formar parte de  charlas gratuitas sobre Alimentacion Saludable </p>
-                                <a href="#" class="btn btn-primary">Ver Mas</a>
+                                <a href="/Assets/pages/novedades.html#alimentacion" class="btn btn-primary"onclick="mostrarContenido('alimentacion');">Ver Mas</a>
                             </div>
                         </div>
                     </div>
@@ -114,7 +113,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Prevencion del Dengue</h5>
                                 <p class="card-text">Informate sobre cuales son los síntomas y las formas de prevención</p>
-                                <a href="#" class="btn btn-primary">Ver Mas</a>
+                                <a href="/Assets/pages/novedades.html#dengue" class="btn btn-primary"onclick="mostrarContenido('dengue');">Ver Mas</a>
                             </div>
                         </div>
                     </div>

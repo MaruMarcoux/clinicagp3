@@ -1,26 +1,3 @@
-// var nombre= document.getElementById('nombre');
-// var email= document.getElementById('email');
-// var mensaje= document.getElementById('mensaje');
-// var form= document.getElementById('form');
-// var error=document.getElementById('error');
-// error.style.color ='red';
-
-
-// function enviarFormulario(){
-// var mensajesError=[];
-
-// if(nombre.value === null || nombre.value=== ''){
-//     mensajesError.push('Ingresa tu nombre');
-// }
-
-// error.innerHTML= mensajesError.join();
-// }
-
-
-
-
-
-
 
  var nombre = document.getElementById('nombre');
  var email = document.getElementById('email');
@@ -66,11 +43,18 @@ error3.style.color = 'red'
 }
 
    
-    
-//     if (mensaje.value.trim() === '') {
-//          mensajesError.push('Por favor, ingresa un mensaje.');
-//     }
-    
-// // }
+
+function mostrarContenido(id) {
+    console.log( "sifunciona")
+    var contenido = document.getElementById(id);
+    if (contenido) {
+        // contenido.style.display = 'block';
+        contenido.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
+mostrarContenido("alimentacion");
+mostrarContenido("residencias");
+mostrarContenido("dengue");
+
 
 
