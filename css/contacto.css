@@ -16,59 +16,38 @@ main{
 
 }
 
-.title{
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 80px;
-    color:#0F1B41;
-    
-}
-.title img,
-.title h2 {
-    margin-top: 100px;
-    display: inline;
-    vertical-align: middle; /* Alinea verticalmente los elementos */
-}
-
-.inf-container{
-    margin-top: 30px;
-    padding-top: 30px ;
-    
-}
-/* .text-container li{
-    list-style-type: none;
-} */
-
 
 
 /* Estilos formulario */
 .title-contacto{ 
-    padding:20px;
+    padding-top:100px;
+    padding-bottom: 30px;
     margin-top: 20px;
+    font-weight: bold;
     
-
-}
-.img-services img{ 
-    margin-top:50px;
 
 }
 
 .contact-form {
     margin-bottom: 60px; /* Agrega espacio debajo del formulario */
+    align-items: center;
+    
 }
 
 form {
-    max-width: 700px; /* Establece el ancho máximo del formulario */
+    max-width: 900px; /* Establece el ancho máximo del formulario */
     margin-top:20px; /* Centra el formulario horizontalmente en la página */
     padding: 50px; /* Agrega espacio interno alrededor del formulario */
     border: 1px solid #ccc; /* Agrega un borde alrededor del formulario */
     background-color: #0F1B41;
+    margin-right: 40px;
     
 }
 
 Estilos de los campos del formulario
 .contact-form {
     margin-bottom: 20px; /* Agrega espacio entre los campos */
+    margin: 0 auto;
    
 }
 

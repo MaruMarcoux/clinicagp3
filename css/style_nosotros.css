@@ -1,0 +1,34 @@
+@import url('https://fonts.google.com/specimen/M+PLUS+Rounded+1c#styles');
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#0E7C7B;
+    /*font-family: Arial, sans-serif; */
+   
+
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    padding-top: 150px;
+}
+h5{
+    display: flex;
+    margin-top: 80px;
+    font-weight: bold;
+    color: #0F1B41;
+}
+.cont-info{
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.cont-text{
+    text-align: right;
+    
+}
