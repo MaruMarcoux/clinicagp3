@@ -4,9 +4,13 @@ body {
     margin: 0;
     padding: 0;
 }
+.marginreservation{
+    margin-top: 150px auto;
+
+}
 
 .container {
-    margin: 50px auto;
+    margin: 150px auto 50px auto; /* Modifica el margen para colocar el contenedor debajo del encabezado */
     text-align: center;
     background-color: #fff;
     border-radius: 8px;
@@ -14,6 +18,7 @@ body {
     padding: 20px;
     max-width: 400px;
 }
+
 
 h1 {
     color: #333;
