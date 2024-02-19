@@ -177,15 +177,7 @@ h4{
     font-size: 40px;
     
 }
-/* .novedades .row {
-    display: flex;
-    justify-content: center; 
-    padding: 80px;
-    background-color: #D4F4DD;  
-}
-.card{
-    margin: 8px;
-} */
+
 .cont-novedades{
     background-color: #D4F4DD;  
 
@@ -199,29 +191,18 @@ h4{
     padding-top: 15px;
 }
 
-.card {
-    margin: 0 10px; /* Agrega un margen horizontal a las tarjetas */
-}
-.card-title{
+/* Estilos formulario */
+.title-contacto{ 
+    padding:20px;
+    margin-top: 20px;
+    
 
-    font-weight: bold;
-    text-align: center;
-}
-.btn-card {
-    display: block; /* Para que el botón ocupe todo el ancho del contenedor */
-    margin: 0 auto; /* Para centrar horizontalmente el botón */
-    background-color:#0F1B41; /* Cambiar el color de fondo del botón a naranja */
-    color: #ffffff; /* Cambiar el color del texto del botón a blanco */
-}
-.card-body {
-    max-height: 50vh; /* Utiliza viewport height para una altura máxima adaptable */
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
-.cont2 a{
-   text-decoration: none; 
+.contact-form {
+    margin-bottom: 60px; /* Agrega espacio debajo del formulario */
 }
+
 form {
     max-width: 700px; /* Establece el ancho máximo del formulario */
     margin-top:20px; /* Centra el formulario horizontalmente en la página */
@@ -267,5 +248,38 @@ textarea {
 /* Estilos del botón de enviar al pasar el ratón */
 button[type="submit"]:hover {
     background-color: #0F1B41 /* Cambia el color de fondo del botón al pasar el ratón */
+}
+
+
+
+.banner2 h2 {
+    
+    color: #0F1B41;/* Añadido para mejorar la legibilidad */
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    
+}
+
+.card {
+    margin: 0 10px; /* Agrega un margen horizontal a las tarjetas */
+}
+.card-title{
+
+    font-weight: bold;
+    text-align: center;
+}
+.btn {
+    display: block; /* Para que el botón ocupe todo el ancho del contenedor */
+    margin: 0 auto; /* Para centrar horizontalmente el botón */
+    background-color:#0F1B41; /* Cambiar el color de fondo del botón a naranja */
+    color: #ffffff; /* Cambiar el color del texto del botón a blanco */
+}
+.card-body {
+    max-height: 50vh; /* Utiliza viewport height para una altura máxima adaptable */
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 

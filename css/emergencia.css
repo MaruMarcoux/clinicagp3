@@ -136,3 +136,11 @@ button[type="submit"]:hover {
 }
 
 
+.num1{
+    text-decoration: none;
+    color: #000000;
+    transition: all ease 0.5s;
+}
+.num1:hover{
+    color: #120079;
+}
