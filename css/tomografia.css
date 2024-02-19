@@ -15,6 +15,7 @@ main{
     background-color:#0F1B41;
 
 }
+
 .title{
     text-align: center;
     margin-top: 30px;
@@ -22,9 +23,9 @@ main{
     color:#0F1B41;
     
 }
-
 .title img,
 .title h2 {
+    margin-top: 100px;
     display: inline;
     vertical-align: middle; /* Alinea verticalmente los elementos */
 }
@@ -38,16 +39,17 @@ main{
     list-style-type: none;
 } */
 
-.img-services img{ 
-    margin-top:50px;
 
-}
 
 /* Estilos formulario */
 .title-contacto{ 
     padding:20px;
     margin-top: 20px;
     
+
+}
+.img-services img{ 
+    margin-top:50px;
 
 }
 
@@ -133,14 +135,4 @@ button[type="submit"]:hover {
     max-height: 50vh; /* Utiliza viewport height para una altura máxima adaptable */
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-
-.num1{
-    text-decoration: none;
-    color: #000000;
-    transition: all ease 0.5s;
-}
-.num1:hover{
-    color: #120079;
 }
