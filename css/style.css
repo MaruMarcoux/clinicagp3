@@ -34,10 +34,12 @@ body{
     text-align: center;
     padding: 40px;
     color: #fff;
+
 }  
 .cont2 {
     background-color: #0F1B41;
     padding-bottom: 20px;
+    text-decoration: ;
    
    
 }
@@ -49,7 +51,12 @@ body{
 
 .box-1:hover {
     background-color:#0e7c7ab7;
+    
 }
+.card-link {
+    text-decoration: none;
+}
+
 
 
 
