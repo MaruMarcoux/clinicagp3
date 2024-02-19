@@ -68,6 +68,9 @@ body{
 }
 .card-link {
     text-decoration: none;
+    .card-link {
+        pointer-events: none;
+    }
 }
 
 
