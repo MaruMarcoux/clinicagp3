@@ -1,14 +1,5 @@
 <h1 align="center">GP3 - Clínica de Atención Integral</h1>
-<p align="center">
-  <a href="https://gp3clinica.com">
-    <img src="https://gp3clinica.com/logo.png" />
-  </a>
-</p>
 
-<div align="center">
-  <img src="https://img.shields.io/github/commit-activity/y/MaruMarcoux/clinicagp3/main" />
-  <img src="https://img.shields.io/github/contributors/MaruMarcoux/clinicagp3" />
-</div>
 
 
 [![screenshot](Assets/Imagenes/clinica1.png 'Screenshot')](https://gp3clinica.com/)
